@@ -71,6 +71,7 @@ type Transaction struct {
 	BankTransactionCode                    string   `json:"bankTransactionCode,omitempty"`
 	AdditionalInformation                  string   `json:"additionalInformation,omitempty"`
 	InternalTransactionId                  string   `json:"internalTransactionId,omitempty"`
+	EndToEndId                             string   `json:"endToEndId,omitempty"`
 }
 
 type AccountTransactions struct {
